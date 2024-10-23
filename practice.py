@@ -100,3 +100,32 @@
 #     print(f"the temp in °C is {temp}")
 # else:
 #     print(f"{unit} is an invalid unit of measurement")
+
+# temp = 25
+# is_raining = False
+# if temp > 35 or temp < 20 or is_raining:
+#     print("the outdoor event is cancelled")
+# else:
+#     print("the outdoor event is scheduled")
+
+# temp = int(input("enter the temp: "))
+# is_sunny = False
+
+# if temp >= 28 and is_sunny:
+#     print("it's hot outside")
+#     print("it's sunny")
+# elif temp <= 0 and is_sunny:
+#     print("it's cold outside")
+#     print("it's sunny")
+# elif 28 > temp > 0 and is_sunny:
+#     print("it's wamr outside")
+#     print("it's sunny")
+# elif temp >= 28 and not is_sunny:
+#     print("it's hot outside")
+#     print("it's cloudy")
+# elif temp <= 0 and not is_sunny:
+#     print("it's cold outside")
+#     print("it's cloudy")
+# elif 28 > temp > 0 and not is_sunny:
+#     print("it's wamr outside")
+#     print("it's cloudy")
