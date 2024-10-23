@@ -89,8 +89,8 @@
 # else:
 #     print(f"{unit} is not a valid")
 
-unit = input("is this temperature in celsius or fahrenheit? (C/F): ")
-temp = float(input("enter the temp: "))
+# unit = input("is this temperature in celsius or fahrenheit? (C/F): ")
+# temp = float(input("enter the temp: "))
 
 # if unit == "C":
 #     temp = round((9 * temp) / 5 + 32, 1)
