@@ -165,3 +165,31 @@
 # user_role = "admin"
 # access_level = "full access" if user_role == "admin" else "limited access"
 # print(access_level)
+
+# name = input("enter your name: ")
+# phone_number = input("enter your phone #: ")
+
+# result = len(name)
+# result = name.find(" ")
+# result = name.rfind("o")
+# name = name.capitalize()
+# name = name.upper()
+# name = name.lower()
+# result = name.isdigit()
+# result = name.isalpha()
+# result = phone_number.count("-")
+# phone_number = phone_number.replace("-", " ")
+
+# print(phone_number)
+
+# username = input("enter your username: ")
+
+# if len(username) > 12:
+#     print("username can not be more than 12 characters")
+# elif not username.find(" ") == -1:
+#     print("username can not contain spaces")
+# elif not username.isalpha():
+#     print("username can not cotain numbers")
+# else:
+#     print(f"welcome {username}!")
+
