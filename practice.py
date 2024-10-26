@@ -202,3 +202,19 @@
 # # print(credit_number[::-2])
 # last_digits = credit_number[-4:]
 # print(last_digits)
+
+
+price1 = 3.14159
+price2 = -987.65
+price3 = 12.34
+
+# print(f"price 1 is ${price1:.2f}")
+# print(f"price 2 is ${price2:10}")
+# print(f"price 3 is ${price3:010}")
+# print(f"price 1 is ${price1:<10}")
+# print(f"price 2 is ${price2:>10}")
+# print(f"price 3 is ${price3:^10}")
+# print(f"price 1 is ${price1:+}")
+# print(f"price 2 is ${price2: }")
+# print(f"price 3 is ${price3:,}")
+print(f"price1 is ${price1:+.2f}")
