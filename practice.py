@@ -217,4 +217,32 @@ price3 = 12.34
 # print(f"price 1 is ${price1:+}")
 # print(f"price 2 is ${price2: }")
 # print(f"price 3 is ${price3:,}")
-print(f"price1 is ${price1:+.2f}")
+# print(f"price1 is ${price1:+.2f}")
+
+# name = input("enter your name: ")
+
+# while name == "":
+#     print("you did not type")
+#     name = input("enter your name: ")
+# print(f"hello {name}")
+
+# age = int(input("enter your age: "))
+
+# while age < 0:
+#     print("age can not negative")
+#     age = int(input("enter your age: "))
+# print(f"you are {age} years old")
+
+# food = input("enter a food you like (q to quit): ")
+
+# while not food == "q":
+#     print(f"you like {food}")
+#     food = input("enter another food you like (q to quit): ")
+# print("bye")
+
+num = int(input("enter a # between 1 - 10: "))
+
+while num < 1 or num > 10:
+    print(f"{num} is not vaild")
+    num = int(input("enter a # bewteen 1 - 10: "))
+print(f"your number is {num}")
