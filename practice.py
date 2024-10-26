@@ -263,6 +263,29 @@ time = 0
 #     time = int(input("enter the time in years: "))
 #     if time <= 0:
 #         print("it can not be less than or equal to zero")
+# for x in range(1, 11):
+#     print(x)
+
+# for x in reversed(range(1, 11)):
+#     print(x)
+# print("happy new year!")
+
+# card_num = "1234-5678-9012"
+# for x in card_num:
+#     print(x)
+
+# for x in range(1, 21):
+#     if x == 13:
+#         continue
+#     else:
+#         print(x)
+
+# for x in range(1, 11):
+#     if x == 9:
+#         break
+#     else:
+#         print(x)
+
 
 while True:
     principle = float(input("enter the principle amount: "))
