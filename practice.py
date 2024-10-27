@@ -204,9 +204,9 @@
 # print(last_digits)
 
 
-price1 = 3.14159
-price2 = -987.65
-price3 = 12.34
+# price1 = 3.14159
+# price2 = -987.65
+# price3 = 12.34
 
 # print(f"price 1 is ${price1:.2f}")
 # print(f"price 2 is ${price2:10}")
@@ -240,30 +240,59 @@ price3 = 12.34
 #     food = input("enter another food you like (q to quit): ")
 # print("bye")
 
-num = int(input("enter a # between 1 - 10: "))
+# num = int(input("enter a # between 1 - 10: "))
 
-while num < 1 or num > 10:
-    print(f"{num} is not vaild")
-    num = int(input("enter a # bewteen 1 - 10: "))
-print(f"your number is {num}")principle = 0
-rate = 0
-time = 0
+# while num < 1 or num > 10:
+#     print(f"{num} is not vaild")
+#     num = int(input("enter a # bewteen 1 - 10: "))
+# print(f"your number is {num}")
 
-# while principle <= 0:
+
+# principle = 0
+# rate = 0
+# time = 0
+
+# # while principle <= 0:
+# #     principle = float(input("enter the principle amount: "))
+# #     if principle <= 0:
+# #         print("it can not be less than or equal to zero")
+
+# # while rate <= 0:
+# #     rate = float(input("enter the interest rate: "))
+# #     if rate <= 0:
+# #         print("it can not be less than or equal to zero")
+
+# # while time <= 0:
+# #     time = int(input("enter the time in years: "))
+# #     if time <= 0:
+# #         print("it can not be less than or equal to zero")
+
+# while True:
 #     principle = float(input("enter the principle amount: "))
 #     if principle <= 0:
 #         print("it can not be less than or equal to zero")
+#     else:
+#         break   
 
-# while rate <= 0:
+# while True:
 #     rate = float(input("enter the interest rate: "))
 #     if rate <= 0:
 #         print("it can not be less than or equal to zero")
+#     else:
+#         break    
 
-# while time <= 0:
+# while True:
 #     time = int(input("enter the time in years: "))
 #     if time <= 0:
 #         print("it can not be less than or equal to zero")
-# for x in range(1, 11):
+#     else:
+#         break
+
+# total = principle * pow((1 + rate / 100), time)
+# print(f"balance after {time} year/s: ${total:.2f}")
+
+
+#  for x in range(1, 11):
 #     print(x)
 
 # for x in reversed(range(1, 11)):
@@ -287,35 +316,13 @@ time = 0
 #         print(x)
 
 
-while True:
-    principle = float(input("enter the principle amount: "))
-    if principle <= 0:
-        print("it can not be less than or equal to zero")
-    else:
-        break   
+# import time
+# my_time = int(input("enter the time in second: "))
 
-while True:
-    rate = float(input("enter the interest rate: "))
-    if rate <= 0:
-        print("it can not be less than or equal to zero")
-    else:
-        break    
-
-while True:
-    time = int(input("enter the time in years: "))
-    if time <= 0:
-        print("it can not be less than or equal to zero")
-    else:
-        break
-
-total = principle * pow((1 + rate / 100), time)
-print(f"balance after {time} year/s: ${total:.2f}")import time
-my_time = int(input("enter the time in second: "))
-
-for x in range(my_time, 0, -1):
-    seconds = x % 60
-    minutes = int(x / 60) % 60
-    hours = int(x / 3600)
-    print(f"{hours:02}:{minutes:02}:{seconds:02}")
-    time.sleep(1)
-print("time's up")
+# for x in range(my_time, 0, -1):
+#     seconds = x % 60
+#     minutes = int(x / 60) % 60
+#     hours = int(x / 3600)
+#     print(f"{hours:02}:{minutes:02}:{seconds:02}")
+#     time.sleep(1)
+# print("time's up")
