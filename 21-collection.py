@@ -1,6 +1,6 @@
 # fruits = ["apple", "orange", "banana"]
 # fruits = {"apple", "orange", "banana"}
-fruits = ("apple", "orange", "banana")
+# fruits = ("apple", "orange", "banana")
 
 # print(fruits[:2])
 # print(len(fruits))
