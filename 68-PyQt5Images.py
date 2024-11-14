@@ -5,10 +5,9 @@ from PyQt5.QtGui import QPixmap
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWidonwTitle("my cool first GUI")
         self.setGeometry(0, 0, 500, 500)
         
-        label = QLable(self):
+        label = QLable(self)
         label.setGeometry(0, 0, 250, 250)
 
         pixmap = QPixmap("pic.jpg")
