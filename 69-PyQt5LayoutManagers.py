@@ -1,6 +1,6 @@
 import sys
 from PyQt5.Qtwidgets import (QApplication, QMainWindow, QLable,
-                             QWidth, QVBoxLayout, QHBoxLayout, QGridLayout)
+                             QWidget, QVBoxLayout, QHBoxLayout, QGridLayout)
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         self.initUI()
 
         def initUI(self):
-            central_widget = QWidth()
+            central_widget = QWidget()
             self.setCentralWidget(central_widget)
 
             label1 = QLable("#1, self")
